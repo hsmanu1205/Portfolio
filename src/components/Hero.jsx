@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react';
+import { useState, useEffect, useMemo } from 'react';
 import { Github, Linkedin, Mail, Download, ArrowDown } from 'lucide-react';
 import './Hero.css';
 
@@ -9,12 +9,13 @@ const Hero = () => {
   const [isComplete, setIsComplete] = useState(false);
 
   const name = "I am Harshit Singh";
-  const titles = [
+
+  const titles = useMemo(() => [
     "Java Full Stack Developer",
     "Web Developer", 
     "Python Developer",
     "Software Engineer"
-  ];
+  ], []);
 
   useEffect(() => {
     if (!isComplete) {
@@ -104,7 +105,7 @@ const Hero = () => {
           <div className="hero-text">
             <div className="greeting">
               <span className="wave">👋</span>
-              <span className="greeting-text">Hello, I'm</span>
+              <span className="greeting-text">Hello, I&#39;m</span>
             </div>
             
             <h1 className="hero-title">
@@ -149,7 +150,7 @@ const Hero = () => {
           <div className="hero-image">
             <div className="image-container">
               <img 
-                src="https://shorturl.at/szmGz?auto=compress&cs=tinysrgb&w=400&h=400&fit=crop" 
+                src="public/img/profilePic.jpg" 
                 alt="Harshit Singh"
                 className="profile-image"
               />
