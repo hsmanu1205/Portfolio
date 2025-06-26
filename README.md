@@ -6,7 +6,7 @@ A modern 3D interactive portfolio website built with cutting-edge web technologi
 ## 🚀 Live Demo
 
 Check out the live version deployed on Vercel:  
-[![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)](YOUR_VERCEL_LINK_HERE) <!-- Replace with your Vercel link -->
+[![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://portfolio-orcin-chi-qj1vqllznj.vercel.app/) <!-- Replace with your Vercel link -->
 
 ## ✨ Features
 
