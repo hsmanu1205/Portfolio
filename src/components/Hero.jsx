@@ -150,7 +150,7 @@ const Hero = () => {
           <div className="hero-image">
             <div className="image-container">
               <img 
-                src="public/img/profilePic.jpg" 
+                src="https://i.ibb.co/ds3k8KpG/Dp-pro.jpg&w=400&h=400&fit=crop" 
                 alt="Harshit Singh"
                 className="profile-image"
               />
